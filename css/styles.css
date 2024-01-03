@@ -1,0 +1,74 @@
+/* Tage-based Selector */
+body /* */
+{
+  background-color: #f8f1f1;
+}
+
+h1
+{
+color: #351f39;
+text-decoration: underline;
+font-family:  Roboto;
+text-align: center;
+}
+
+hr
+{
+  color: #0f1123;
+  display: block;
+  border-style:double;
+/*  border-width: 2px; */
+  border-top: 2px;
+}
+
+h3
+{
+color: #19456b;
+text-decoration: underline;
+font-family: sans-serif;
+ text-align: center;
+}
+
+
+img
+{
+width: 250px;
+height: 250px;
+align-self:center;
+}
+
+label
+{
+  color: #09015f;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 15px;
+}
+
+input[type=text]
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+/*  box-sizing: border-box; */
+}
+
+/* Class-based Selectors*/
+
+.prachibutton
+{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/*Pseudo-class Selectors*/
+.prachibutton:hover
+{
+background-color: red;
+}
